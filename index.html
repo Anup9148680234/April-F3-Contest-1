@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contest1Apr</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main_cont">
+            <h2 id="head1">New Employees</h2>
+            <div class="input_cont">
+                    <div class="inputs">
+                        <p class="input_heads">Enter Name</p>
+                        <input type="text" class="form-control" id="fname" name="fname" required="true">
+                    </div>
+                    <div class="inputs">
+                        <p class="input_heads">Enter Profession</p>
+                        <input type="text" class="form-control" id="fjob" name="fjob" required="true">
+                    </div>
+                    <div class="inputs">
+                        <p class="input_heads">Enter Age</p>
+                        <input type="number" class="form-control" id="fage" name="fage" required="true"><br>
+                    </div>
+            </div> 
+            <input type="submit" class="form-control" value="Add User" id="add_user">
+            <div id="message_display"></div>
+            <h2 id="head2">Added Employees</h2>
+            <div id="EmpCount">You have 0 Employees.</div>
+            <div>
+                <ol id="EmpTable"></ul>
+            </div>
+        </div>
+        
+    <script src="./script.js"></script>
+    </body>
+</html>
